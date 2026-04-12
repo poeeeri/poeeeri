@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Purbo-Suruna 👋</h1>
+<h1 align="center">Hi, I'm Sasha 👋</h1>
 <p align="center">
   ML Engineer ( NLP, CV, MLOps )
 </p>
