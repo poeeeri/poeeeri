@@ -98,7 +98,7 @@ Although **NLP** is my main priority, I also enjoy working with **CV** and **Dev
 ## Contact
 
 - GitHub: [@poeeeri](https://github.com/poeeeri)
-- Telegram: [@acchhe](https://t.me/acchhe)
+- Telegram: [@acchhe](https://t.me/sashxdlolkek)
 - Email: [g2007gle@mail.ru](mailto:g2007gle@mail.ru)
 - VK: [achooch](https://vk.ru/achooch)
 
