@@ -1,109 +1,107 @@
-<h1 align="center">Hi, I'm Sasha 👋</h1>
-<p align="center">
-  ML Engineer ( NLP, CV, MLOps )
-</p>
+# Hi, I'm Purbo-Suruna 👋
+
+ML Engineer focused on **NLP**, interested in **CV** and practical ML systems.  
+I build pet projects end-to-end: from dataset preparation and model training to deployment, monitoring, and backend integration.
+
+## Tech Stack
+
+**ML / DL:** PyTorch, Scikit-learn, NLP, CV, sentence-transformers, Hugging Face  
+**Data:** pandas, SQL, PostgreSQL, Oracle  
+**Backend / APIs:** FastAPI, aiogram  
+**MLOps / Infra:** Docker, Linux, ClearML, Apache Airflow, Grafana, Ansible, Git  
+
+## Featured Projects
+
+### [Chebubrya Memes Bot](https://github.com/poeeeri/chebubrya-memes-bot)
+Telegram bot for meme retrieval by message meaning.
+
+- Built dataset indexing pipeline
+- Implemented retrieval with vector database
+- Added reranking with a fine-tuned local model
+- Deployed the project on a remote server
+
+**Stack:** `sentence-transformers` `PyTorch` `pandas` `Docker` `ChromaDB` `aiogram`
 
 ---
 
-## About me
+### [License Detector](https://github.com/poeeeri/license-detector)
+System for vehicle license plate detection and OCR.
 
-I build practical ML systems: from **text classification and retrieval** to **computer vision pipelines** and **MLOps workflows**.
+- Prepared a custom dataset
+- Trained **YOLOv8** for plate detection
+- Integrated **TrOCR / Hugging Face** for text recognition
+- Ran A/B testing with fine-tuned **PPOCRv5**
+- Set up inference for video streams and camera input
+- Added experiment tracking and monitoring with **ClearML**
 
-Right now I’m especially interested in:
-- **NLP systems**: intent classification, retrieval, reranking
-- **Computer Vision**: detection pipelines, dataset preparation, training, evaluation
-- **MLOps**: experiment tracking, reproducible training, deployment-ready project structure
-- **End-to-end applied projects** where models solve real product tasks
-
----
-
-## Selected projects
-
-### [Banking-Support](https://github.com/poeeeri/Banking-Support)
-Synthetic dataset generation + transformer-based classification of banking support requests using the **last user message in dialogue context**.
-
-**What’s inside:**
-- synthetic dialogue generation
-- intent schema design
-- preprocessing and validation
-- encoder-based text classification
-- experiment notebooks and scripts
-
-**Stack:** Python, Transformers, PyTorch, Hugging Face
+**Stack:** `YOLOv8` `TrOCR` `Hugging Face` `ClearML` `CV`
 
 ---
 
-### [chebubrya-memes-bot](https://github.com/poeeeri/chebubrya-memes-bot)
-A meme recommendation bot that retrieves relevant memes from a database based on a Telegram message.
+### [Banking Support](https://github.com/poeeeri/Banking-Support)
+NLP pipeline for banking support automation.
 
-**Interesting parts:**
-- retrieval evaluation
-- reranking experiments
-- practical recommendation pipeline
+- Generated synthetic dialogues for dataset creation
+- Trained an intent classifier based on **RuBERT**
+- Tracked experiments with **ClearML**
 
-**Stack:** Python, NLP, retrieval, Telegram bot
-
----
-
-### [DLS-course](https://github.com/poeeeri/DLS-course)
-Selected deep learning coursework and experiments.
-
-Topics include:
-- embeddings
-- language modeling
-- text classification
-- CNN/RNN practice
-
----
-
-### [license-detector](https://github.com/poeeeri/license-detector)
-License plate detection project trained on a custom dataset with **ClearML integration**.
-
-**What I worked on:**
-- custom CV training workflow
-- dataset-based detector training
-- experiment tracking setup
-
-**Stack:** Python, Computer Vision, ClearML
+**Stack:** `NLP` `RuBERT` `PyTorch` `ClearML`
 
 ---
 
 ### [AI-Triage](https://github.com/poeeeri/AI-Triage)
-MVP of an **AI-powered medical triage** system for patient prioritization.
+AI-assisted triage service for analyzing symptoms and patient history.
 
-**Focus:**
-- practical healthcare-oriented AI workflow
-- client/server structure
-- product-style project organization
+- Participated in development of a service that:
+  - analyzed complaints and anamnesis
+  - estimated urgency
+  - suggested recommendations for doctors
+  - routed patients by specialist profile
+- Integrated an **LLM-based** component
+- Worked with **FastAPI**
 
-**Stack:** Python, ML, backend architecture
-
----
-
-### [cirrhosis-prediction-mlops](https://github.com/monalenka/cirrhosis-prediction-mlops)
-An MLOps-oriented project for predicting cirrhosis patient survival using demographic, biochemical, and clinical data.
-
-**Focus:**
-- training + evaluation pipeline
-- reproducible project structure
-- applied medical tabular ML
-
-**Stack:** Python, ML, MLOps
+**Stack:** `LLM` `FastAPI` `Backend`
 
 ---
 
-## Tech stack
+### [DLS-course](https://github.com/poeeeri/DLS-course)
+A collection of notebooks and experiments on ML, NLP, and CV.
 
-**Languages & core tools**  
-`Python` `SQL` `Git` `Linux`
+- Implemented model architectures
+- Fine-tuned classifiers
+- Explored training pipelines and evaluation approaches
 
-**ML / DL**  
-`PyTorch` `Transformers` `scikit-learn` `NumPy` `pandas`
-
-**NLP / LLM**  
-`Hugging Face` `text classification` `retrieval` `reranking` `synthetic data generation`
-
-**CV / MLOps**  
-`OpenCV` `ClearML` `Poetry` `Docker`
+**Stack:** `PyTorch` `NLP` `CV` `Research`
 
 ---
+
+### [Reverse-Gantt](https://github.com/poeeeri/Reverse-Gantt)
+Reverse Gantt chart system for team project progress tracking.
+
+- Mainly worked on backend development
+- Participated in building a practical team product
+
+🌐 Demo: [reversegantt.devgirlsco.ru](https://reversegantt.devgirlsco.ru)
+
+## What I’m interested in
+
+Right now, I’m especially interested in:
+
+- NLP systems and text understanding
+- Retrieval, reranking, and semantic search
+- LLM-based applications
+- Practical ML engineering
+- End-to-end pet projects with real deployment
+
+Although **NLP** is my main priority, I also enjoy working with **CV** and **DevOps-related** tasks when they help bring a project to production.
+
+## Contact
+
+- GitHub: [@poeeeri](https://github.com/poeeeri)
+- Telegram: [@acchhe](https://t.me/acchhe)
+- Email: [g2007gle@mail.ru](mailto:g2007gle@mail.ru)
+- VK: [achooch](https://vk.ru/achooch)
+
+---
+
+⭐ I like building projects that combine machine learning with real user scenarios — especially when an idea can be taken from experimentation to a working product.
