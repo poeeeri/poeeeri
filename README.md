@@ -1,4 +1,4 @@
-# Hi, I'm Purbo-Suruna 👋
+# Hi, I'm Purbo-Suruna (Alexandra) 👋
 
 ML Engineer focused on **NLP**, interested in **CV** and practical ML systems.  
 I build pet projects end-to-end: from dataset preparation and model training to deployment, monitoring, and backend integration.
