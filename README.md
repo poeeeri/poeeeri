@@ -5,10 +5,11 @@ I build pet projects end-to-end: from dataset preparation and model training to 
 
 ## Tech Stack
 
-**ML / DL:** PyTorch, Scikit-learn, NLP, CV, sentence-transformers, Hugging Face  
-**Data:** pandas, SQL, PostgreSQL, Oracle  
-**Backend / APIs:** FastAPI, aiogram  
-**MLOps / Infra:** Docker, Linux, ClearML, Apache Airflow, Grafana, Ansible, Git  
+**ML / DL:** PyTorch, Scikit-learn, NLP, CV, Transformers, sentence-transformers, Hugging Face
+**LLM / Agents:** LangGraph, MemPalace
+**Backend / APIs:** FastAPI, aiogram
+**MLOps / Experiment Tracking:** Docker, ClearML, Optuna
+**DevOps / Infra:** Linux, Git, Docker Compose, Kubernetes, PostgreSQL deployment, Grafana, Ansible, Redis, ELK
 
 ## Featured Projects
 
