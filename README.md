@@ -4,13 +4,9 @@
 
 **ML Engineer focused on NLP, semantic search, retrieval/reranking, and practical ML systems**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=I+turn+ML+experiments+into+working+products;NLP+%7C+Retrieval+%7C+LLM+Agents+%7C+MLOps;From+data+and+models+to+deployment+and+monitoring" alt="Typing SVG" />
-
 </div>
 
 ---
-
-<img align="right" src="./assets/cat-coding.gif" width="230" alt="Coding cat gif" />
 
 ## About me
 
@@ -20,10 +16,10 @@ I’m especially interested in **NLP systems**, **semantic search**, **retrieval
 
 ## Tech Stack
 
-**ML / DL:** Python, PyTorch, Scikit-learn, Transformers, sentence-transformers, Hugging Face, NLP, CV
-**LLM / Agents:** LangGraph, MemPalace, OpenRouter
-**Backend:** FastAPI, aiogram
-**MLOps / Infra:** Docker, Docker Compose, ClearML, Optuna, Linux, Git, Kubernetes, PostgreSQL, Redis, Grafana, ELK, Ansible
+**ML / DL:** Python, PyTorch, Scikit-learn, Transformers, sentence-transformers, Hugging Face, NLP, CV  
+**LLM / Agents:** LangGraph, MemPalace, OpenRouter  
+**Backend:** FastAPI, aiogram  
+**MLOps / Infra:** Docker, Docker Compose, ClearML, Optuna, Linux, Git, Kubernetes, PostgreSQL, Redis, Grafana, ELK, Ansible  
 
 ---
 
