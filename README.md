@@ -13,14 +13,38 @@ I build pet projects end-to-end: from dataset preparation and model training to 
 ## Featured Projects
 
 ### [Chebubrya Memes Bot](https://github.com/poeeeri/chebubrya-memes-bot)
-Telegram bot for meme retrieval by message meaning.
+Telegram bot for semantic meme retrieval in group chats.
 
-- Built dataset indexing pipeline
-- Implemented retrieval with vector database
-- Added reranking with a fine-tuned local model
-- Deployed the project on a remote server
+This project combines NLP, retrieval models, reranking, backend integration, deployment, and basic security automation.
 
-**Stack:** `sentence-transformers` `PyTorch` `pandas` `Docker` `ChromaDB` `aiogram`
+- Built a dataset indexing pipeline for meme descriptions, OCR text, and semantic annotations
+- Implemented semantic retrieval with **sentence-transformers** and **ChromaDB**
+- Fine-tuned a local retrieval model based on multilingual embedding models
+- Added reranking with a fine-tuned local **CrossEncoder** model
+- Compared local retrieval/reranking with API-based models using **Recall@K** and **MRR**
+- Integrated the retrieval pipeline into a Telegram bot with **aiogram**
+- Added PostgreSQL logging for requests, selected candidates, and user feedback
+- Collected feedback through inline buttons for future model improvement
+- Deployed the service on a remote Linux server with **Docker Compose**
+- Added security checks with **Bandit**, **pip-audit**
+- Configured a GitHub Actions workflow for automated SAST and dependency scanning
+
+**Stack:** `Python` `PyTorch` `sentence-transformers` `CrossEncoder` `ChromaDB` `PostgreSQL` `aiogram` `Docker` `Linux` `GitHub Actions` `Bandit` `pip-audit`
+
+---
+
+### [Mindly Memory Agent](https://github.com/poeeeri/Mindly-Memory-Agent)
+Conversational LLM agent with persistent long-term user memory.
+
+- Built a FastAPI backend for streaming LLM responses through OpenRouter
+- Designed an agent workflow with **LangGraph**
+- Implemented long-term memory with **MemPalace / ChromaDB**
+- Added structured fact extraction from user messages
+- Separated short-term chat history from persistent user memory
+- Added PostgreSQL support for chat history persistence
+- Dockerized the application and connected it with a React/Vite WebUI
+
+**Stack:** `Python` `FastAPI` `LangGraph` `LLM` `OpenRouter` `MemPalace` `ChromaDB` `PostgreSQL` `React` `Docker`
 
 ---
 
@@ -49,21 +73,6 @@ NLP pipeline for banking support automation.
 
 ---
 
-### [AI-Triage](https://github.com/poeeeri/AI-Triage)
-AI-assisted triage service for analyzing symptoms and patient history.
-
-- Participated in development of a service that:
-  - analyzed complaints and anamnesis
-  - estimated urgency
-  - suggested recommendations for doctors
-  - routed patients by specialist profile
-- Integrated an **LLM-based** component
-- Worked with **FastAPI**
-
-**Stack:** `LLM` `FastAPI` `Backend`
-
----
-
 ### [DLS-course](https://github.com/poeeeri/DLS-course)
 A collection of notebooks and experiments on ML, NLP, and CV.
 
@@ -80,8 +89,6 @@ Reverse Gantt chart system for team project progress tracking.
 
 - Mainly worked on backend development
 - Participated in building a practical team product
-
-🌐 Demo: [reversegantt.devgirlsco.ru](https://reversegantt.devgirlsco.ru)
 
 ## What I’m interested in
 
